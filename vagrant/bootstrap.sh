@@ -59,7 +59,7 @@ sudo chown -cvR www-data $DATA_DIR
 
 # Downloading SeedDMS
 echo "Downloading SeedDMS Installation"
-sudo git clone https://github.com/rachmari/seeddms.git /var/www/seeddms
+sudo git clone https://github.com/hikerguy1900/seeddms.git /var/www/seeddms
 sudo rm -rf /var/www/html
 sudo ln -s /var/www/seeddms /var/www/html
 
