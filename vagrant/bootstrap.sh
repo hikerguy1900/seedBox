@@ -106,6 +106,6 @@ sudo service apache2 restart
 
 #create install tool config
 cd /var/www/html/conf
-sudo wget http://perforce.paradesh.com:8080/@rev1=head@//webapps/DMS/seedLocalFiles/settings.xml
+sudo wget http://swarm.paradesh.com/downloads/webapps/DMS/seedLocalFiles/settings.xml
 
 echo "Finished provisioning."
